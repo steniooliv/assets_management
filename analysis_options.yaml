@@ -1,0 +1,17 @@
+include: package:flutter_lints/flutter.yaml
+
+linter:
+  rules:
+    always_use_package_imports: true
+    avoid_print: true
+    avoid_single_cascade_in_expression_statements: true
+    avoid_unnecessary_containers: true
+    lines_longer_than_80_chars: false
+    prefer_const_constructors: true
+    prefer_const_literals_to_create_immutables: true
+    prefer_final_locals: true
+    prefer_single_quotes: true
+    require_trailing_commas: true
+    sort_constructors_first: true
+    unnecessary_this: true
+    use_key_in_widget_constructors: true
