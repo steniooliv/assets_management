@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Assets Management Dev Debug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main/main_dev.dart",
+      "args": ["--flavor", "dev"]
+    },
+    {
+      "name": "Assets Management Prod Debug",
+      "request": "launch",
+      "type": "dart",
+      "program": "lib/main/main_prod.dart",
+      "args": ["--flavor", "prod"]
+    },
+    {
+      "name": "Assets Management Prod Release",
+      "request": "launch",
+      "type": "dart",
+      "flutterMode": "release",
+      "program": "lib/main/main_prod.dart",
+      "args": ["--flavor", "prod"]
+    }
+  ]
+}
